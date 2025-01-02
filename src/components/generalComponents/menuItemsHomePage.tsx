@@ -13,6 +13,8 @@ export default function Menulistitem({ title, description, priceNow, imgURL }: P
       <Image
         src={imgURL}
         alt={title}
+        width={300}
+        height={300}
         className="w-[50px] h-[50px] md:w-[80px] md:h-[80px] object-cover rounded-md"
       />
       <div className="flex flex-col text-white">

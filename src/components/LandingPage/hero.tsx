@@ -4,7 +4,6 @@ import { FaTwitter } from "react-icons/fa";
 import { Heading, HeadingGreatVibes } from "../generalComponents/heading";
 import { FaFacebookF } from "react-icons/fa";
 import Image from "next/image";
-import image from "../../assets/Capture.png"
 const Hero = () => {
   return (
 <div className="flex flex-col md:flex-row  w-full max-w-7xl mx-auto my-[80px]   items-center">
@@ -31,8 +30,10 @@ const Hero = () => {
   </div>
   <div className=" mt-6 md:mt-0 lg:w-[50%]">
         <Image
-          src={image}
+          src='/assets/Capture.png'
           alt="image"
+          width={250}
+          height={250}
           className=" h-auto md:h-[260px] md:w-[350px] object-cover rounded-lg"
         />
       </div></div>

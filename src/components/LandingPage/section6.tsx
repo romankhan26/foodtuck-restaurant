@@ -1,13 +1,5 @@
 import Image from "next/image";
-import img10 from "../../assets/img10.png";
-import img15 from "../../assets/img15.png";
-import img16 from "../../assets/img16.png";
-import img17 from "../../assets/img17.png";
-import img18 from "../../assets/img18.png";
-import img19 from "../../assets/img20.png";
-import img20 from "../../assets/img21.png";
-import img21 from "../../assets/img22.png";
-import img22 from "../../assets/img22.png";
+
 import Menulistitem from "../generalComponents/menuItemsHomePage";
 import { Heading, HeadingGreatVibes } from "../generalComponents/heading";
 export default function SectionSix() {
@@ -31,55 +23,57 @@ export default function SectionSix() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full">
         <div className="flex items-center justify-center row-span-2">
           <Image
-            src={img10}
+            src="/assets/img10.png"
+            width={300}
+            height={300}
             alt="quick and amusing"
             className="mx-auto  w-[300px] h-[300px] transition transform hover:scale-110 cursor-pointer"
           />
         </div>
           <Menulistitem
-            imgURL={img15}
+            imgURL="/assets/img15.png"
             title="Lettuce Leaf"
             description="Lacus nisi, et ac dapibus velit in consequat."
             priceNow="12.5$"
           />
           <Menulistitem
-            imgURL={img16}
+            imgURL="/assets/img16.png"
             title="Glow Cheese"
             description="Lacus nisi, et ac dapibus velit in consequat."
             priceNow="14.5$"
           />
           <Menulistitem
-            imgURL={img17}
+            imgURL="/assets/img17.png"
             title="Fresh Breakfast"
             description="Lacus nisi, et ac dapibus velit in consequat."
             priceNow="14.5$"
           />
           <Menulistitem
-            imgURL={img18}
+            imgURL="/assets/img18.png"
             title="Italian Pizza"
             description="Lacus nisi, et ac dapibus velit in consequat."
             priceNow="12.5$"
           />
           <Menulistitem
-            imgURL={img19}
+            imgURL="/assets/img20.png"
             title="Mild Butter"
             description="Lacus nisi, et ac dapibus velit in consequat."
             priceNow="12.5$"
           />
           <Menulistitem
-            imgURL={img20}
+            imgURL="/assets/img21.png"
             title="Slice Beef"
             description="Lacus nisi, et ac dapibus velit in consequat."
             priceNow="12.5$"
           />
           <Menulistitem
-            imgURL={img21}
+            imgURL="/assets/img22.png"
             title="Fresh Bread"
             description="Lacus nisi, et ac dapibus velit in consequat."
             priceNow="12.5$"
           />
           <Menulistitem
-            imgURL={img22}
+            imgURL="/assets/img22.png"
             title="Mashroom Pizza"
             description="Lacus nisi, et ac dapibus velit in consequat."
             priceNow="12.5$"

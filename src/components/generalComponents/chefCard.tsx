@@ -9,9 +9,9 @@ type ChefProps= {
 const ChefCard = ({chefImageUrl, isOnHome , chefDescription, chefName}:ChefProps) => {
   return (
   <div className=" flex flex-col">
-    <div className='lg:w-[250px] lg:h-[312px] xl:w-[250px] xl:h-[338px] w-[200px] h-[252px] relative'>
-        <Image src={chefImageUrl} alt="chefImage" className="w-full rounded-md m-0"/>
-        {isOnHome &&  <div className="absolute  w-[65%] xl:bottom-6 bottom-0 left-0 bg-white text-black md:p-3 p-1  text-left">
+    <div className='lg:w-[210px] lg:h-[272px] xl:w-[230px] xl:h-[318px] w-[200px] h-[252px] relative'>
+        <Image src={chefImageUrl} width={300} height={300} alt="chefImage" className="w-full rounded-md m-0"/>
+        {isOnHome &&  <div className="absolute  w-[65%] xl:bottom-6 lg:bottom-2 bottom-0 left-0 bg-white text-black md:p-3 p-1  text-left">
             <h3 className="font-bold md:text-[20px] text-base">
                 {chefName}
             </h3>

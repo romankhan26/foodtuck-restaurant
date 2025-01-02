@@ -1,15 +1,12 @@
 import Image from "next/image";
-import services1 from "../../assets/Group1.png";
-import services2 from "../../assets/Group2.png";
-import services3 from "../../assets/Group3.png";
-import services4 from "../../assets/Group4.png";
-
 export default function SectionFive() {
   return (
     <div className=" md:flex text-[white] px-4 md:px-8 flex-wrap md:gap-10 items-center justify-between mx-auto w-full lg:-mt-10 py-4 md:py-16 max-w-7xl gap-10">
       <div className="h-fit flex flex-col items-center space-y-1 cursor-pointer hover:scale-110 transition-transform">
         <Image
-          src={services1}
+           src='/assets/Group1.png'
+            width={300}
+            height={300}
           alt="services"
           className=" lg:w-[85px] w-[45px] h-[45px] lg:h-[85px] sm:w-[60px] sm:h-[60px] mb-2"
         />
@@ -22,7 +19,9 @@ export default function SectionFive() {
       </div>
       <div className="h-fit flex flex-col items-center space-y-1 cursor-pointer hover:scale-110 transition-transform">
         <Image
-          src={services2}
+           src='/assets/Group2.png'
+            width={300}
+            height={300}
           alt="services"
           className="lg:w-[85px] w-[45px] h-[45px] lg:h-[85px] sm:w-[60px] sm:h-[60px] mb-2"
         />
@@ -35,7 +34,9 @@ export default function SectionFive() {
       </div>
       <div className="h-fit flex flex-col items-center space-y-1 cursor-pointer hover:scale-110 transition-transform">
         <Image
-          src={services3}
+           src='/assets/Group3.png'
+            width={300}
+            height={300}
           alt="services"
           className="lg:w-[85px] w-[45px] h-[45px] lg:h-[85px] sm:w-[60px] sm:h-[60px] mb-2"
         />
@@ -48,7 +49,9 @@ export default function SectionFive() {
       </div>
       <div className="h-fit flex flex-col items-center space-y-1 cursor-pointer hover:scale-110 transition-transform">
         <Image
-          src={services4}
+           src='/assets/Group4.png'
+            width={300}
+            height={300}
           alt="services"
           className="lg:w-[85px] w-[45px] h-[45px] lg:h-[85px] sm:w-[60px] sm:h-[60px] mb-2"
         />

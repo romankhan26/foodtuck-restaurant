@@ -1,10 +1,6 @@
 import Image from "next/image";
 import { Heading } from "../generalComponents/heading";
 import { HeadingGreatVibes } from "../generalComponents/heading";
-import img4 from "../../assets/img4.png";
-import img5 from "../../assets/img5.png";
-import img6 from "../../assets/img6.png";
-import img7 from "../../assets/img7.png";
 
 export default function SectionThree() {
   return (
@@ -18,25 +14,33 @@ export default function SectionThree() {
       {/* Image Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-8">
           <Image
-            src={img4}
+            src='/assets/img4.png'
+            width={300}
+            height={300}
             className="rounded-[5px] w-full h-[250px] md:h-[280px] object-cover"
             alt="Food Item 1"
           />
    
           <Image
-            src={img5}
+            src='/assets/img5.png'
+            width={300}
+            height={300}
             className="rounded-[5px] w-full h-[250px] md:h-[280px] object-cover"
             alt="Food Item 2"
           />
    
           <Image
-            src={img6}
+            src='/assets/img6.png'
+            width={300}
+            height={300}
             className="rounded-[5px] w-full h-[250px] md:h-[280px] object-cover"
             alt="Food Item 3"
           />
    
           <Image
-            src={img7}
+            src='/assets/img7.png'
+            width={300}
+            height={300}
             className="rounded-[5px] w-full h-[250px] md:h-[280px] object-cover"
             alt="Food Item 4"
           />

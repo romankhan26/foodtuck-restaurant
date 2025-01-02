@@ -1,4 +1,3 @@
-import React from 'react'
 import { CiSearch } from "react-icons/ci";
 import { IoSearch } from "react-icons/io5";
 import { HiOutlineShoppingBag } from "react-icons/hi";

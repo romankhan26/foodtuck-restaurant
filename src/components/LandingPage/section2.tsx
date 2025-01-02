@@ -1,14 +1,7 @@
 import Button from "../generalComponents/button";
-import { FaPinterestP } from "react-icons/fa";
 import { FaCheck } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
 import { Heading, HeadingGreatVibes } from "../generalComponents/heading";
-import { FaFacebookF } from "react-icons/fa";
 import Image from "next/image";
-import image from "../../assets/Capture.png";
-import image1 from "../../assets/img1.png";
-import image2 from "../../assets/img2.png";
-import image3 from "../../assets/img3.png";
 
 const SectionTwo = () => {
   return (
@@ -36,7 +29,9 @@ const SectionTwo = () => {
         {/* Top Image */}
         <div className="w-full">
           <Image
-            src={image1}
+            src='/assets/img1.png'
+            width={300}
+            height={300}
             className="rounded-[5px] w-full h-[200px] md:h-[240px] object-cover"
             alt="image1"
           />
@@ -46,14 +41,18 @@ const SectionTwo = () => {
         <div className="flex gap-3">
           <div className="flex-1">
             <Image
-              src={image2}
+              src='/assets/img2.png'
+              width={300}
+              height={300}
               className=" rounded-[5px] w-full h-[150px] md:h-[180px] object-cover"
               alt="image2"
             />
           </div>
           <div className="flex-1">
             <Image
-              src={image3}
+              src='/assets/img3.png'  
+              width={300}
+              height={300}
               className="rounded-[5px] w-full h-[150px] md:h-[180px] object-cover"
               alt="image3"
             />

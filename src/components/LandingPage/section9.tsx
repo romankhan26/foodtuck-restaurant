@@ -2,13 +2,14 @@ import Image from "next/image";
 import { Heading, HeadingGreatVibes } from "../generalComponents/heading";
 import Button from "../generalComponents/button";
 import { CiPlay1 } from "react-icons/ci";
-import img from "../../assets/unsplash_E6DsqnZbZ4o.png";
 
 const SectionNine = () => {
   return (
-    <div className="relative w-full md:[h-65vh] xl:h-[550px] h-[80vh] max-w-7xl  mx-auto flex items-center justify-end px-4">
+    <div className="relative w-full md:[h-65vh] xl:h-[550px] h-[400px] max-w-7xl  mx-auto flex items-center justify-end px-4">
       <Image
-        src={img}
+        src="/assets/section9bg.png"
+        width={400}
+        height={400}
         alt="bg"
         className="absolute top-0 left-0 w-full h-full object-cover"
       />

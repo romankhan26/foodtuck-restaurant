@@ -3,6 +3,7 @@ import { Great_Vibes } from "next/font/google";
 const great_vibes = Great_Vibes({
   weight:"400",
   variable: "--font-great-vibes",
+  subsets: ["latin"],
 
 });
 

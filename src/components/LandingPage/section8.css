@@ -1,0 +1,7 @@
+.paragraph {
+    /* font-size : clamp(1.2, 0.5 + 2vw,2rem) ; */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow : hidden
+}

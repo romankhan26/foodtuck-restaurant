@@ -1,0 +1,43 @@
+import Button from "../generalComponents/button";
+import { FaPinterestP } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { Heading, HeadingGreatVibes } from "../generalComponents/heading";
+import { FaFacebookF } from "react-icons/fa";
+import Image from "next/image";
+import image from "../../assets/Capture.png"
+const Hero = () => {
+  return (
+<div className="flex flex-col md:flex-row  w-full max-w-7xl mx-auto my-[80px]   items-center">
+  <div className="flex flex-nowrap gap-8 items-center">
+    <div className="flex flex-col items-center gap-4">
+      <div className="w-[1px] h-[100px] bg-white"></div>
+      <FaFacebookF className="hover:scale-110 transition-transform cursor-pointer hover:text-[#FF9F0D]" />
+      <FaTwitter className="hover:scale-110 transition-transform cursor-pointer hover:text-[#FF9F0D]" />
+      <FaPinterestP className="hover:scale-110 transition-transform cursor-pointer hover:text-[#FF9F0D]" />
+      <div className="w-[1px] h-[100px] bg-white"></div>
+    </div>
+    <div className="w-full md:w-4/5 lg:w-[60%] text-left">
+      <HeadingGreatVibes text="ItsQuickAndAmusing!" className="" />
+      <Heading text="The Art of Speed Food Quality" colorOfInitial={true}/>
+      <p className="text-[14px] md:text-[16px] mt-4 leading-relaxed">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Varius sed pharetra dictum neque massa congue.
+      </p>
+      <Button 
+        className="w-[180px] h-[50px] mt-6 text-white bg-[#FF9F0D] rounded-full border-[1px] hover:bg-transparent border-[#FF9F0D]"
+        text="See Menu" 
+      />
+    </div>
+  </div>
+  <div className=" mt-6 md:mt-0 lg:w-[50%]">
+        <Image
+          src={image}
+          alt="image"
+          className=" h-auto md:h-[260px] md:w-[350px] object-cover rounded-lg"
+        />
+      </div></div>
+
+  );
+};
+
+export default Hero;

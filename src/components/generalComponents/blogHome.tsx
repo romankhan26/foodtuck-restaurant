@@ -3,7 +3,7 @@ import { LuThumbsUp } from "react-icons/lu";
 import { LuMessageSquareMore } from "react-icons/lu";
 import { FiShare2 } from "react-icons/fi";
 const BlogsHomePage = ({imgURL, date, heading}: {
-    imgURL:any, date:string, heading:string
+    imgURL:string, date:string, heading:string
 }) => {
   return (
     <div className='w-[270px] h-[370px]  relative border-r-[1px] border-b-[1px] border-white flex-shrink-0'>

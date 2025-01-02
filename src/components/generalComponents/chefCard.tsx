@@ -1,6 +1,6 @@
 import Image from "next/image"
 type ChefProps= {
-    chefImageUrl: any,
+    chefImageUrl: string,
     isOnHome? : boolean,
     chefName : string,
     chefDescription : string

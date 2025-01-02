@@ -4,7 +4,7 @@ type Props = {
   title: string;
   description: string;
   priceNow: string;
-  imgURL: any;
+  imgURL: string;
 };
 
 export default function Menulistitem({ title, description, priceNow, imgURL }: Props) {

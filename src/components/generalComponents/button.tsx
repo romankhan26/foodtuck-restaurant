@@ -1,6 +1,7 @@
-/* eslint-disable  @typescript-eslint/no-explicit-any */
+import { ReactNode } from "react"
+
 type buttonProps = {
-    text:any, Icon?:string, className:string
+    text:ReactNode, Icon?:string, className:string
 }
 export default function Button({text,Icon, className}:buttonProps){
     return (

@@ -1,4 +1,4 @@
-/* eslint-disable  @typescript-eslint/no-explicit-any */
+/* eslint-disable  @typescript-eslint/no-explicit- */
 import Image from "next/image"
 import "./section8.css"
 import { FaStar } from "react-icons/fa6";

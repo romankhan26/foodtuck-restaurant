@@ -3,7 +3,7 @@ import "./section8.css"
 import { FaStar } from "react-icons/fa6";
 import { Heading, HeadingGreatVibes } from "../generalComponents/heading"
 
-const ImageOfClient = ({imgURL, className}:{imgURL:any, className:string})=>{
+const ImageOfClient = ({imgURL, className}:{imgURL:string, className:string})=>{
     return (
         <div className={`${className} flex justify-center items-center max-w-32 max-h-32 md:w-28 md:h-28 sm:w-20 w-14 h-14 sm:h-20`}>
         <Image className="rounded-full" width={300} height={300} src={imgURL} alt="Ellipse"/>

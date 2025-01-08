@@ -2,7 +2,7 @@ import BlogsHomePage from '../generalComponents/blogHome'
 import { Heading, HeadingGreatVibes } from "../generalComponents/heading"
 const SectionTen = () => {
   return (
-    <div className='mb-64 w-full max-w-7xl px-4 md:px-8 mx-auto py-14 md:py-20'>
+    <div className=' w-full max-w-7xl px-4 md:px-8 mx-auto py-14 md:py-20'>
   <div className="text-center ">
   <HeadingGreatVibes text='Blog Post' className=''/>
   <Heading text=' Latest News & Blog' colorOfInitial/>

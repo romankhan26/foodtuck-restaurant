@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
-
+import { Geist, Geist_Mono } from "next/font/google";import { FaInstagram } from "react-icons/fa6";
+import Footer from '@/components/Footer/Footer'
+import "./globals.css";import { FaPinterestSquare, FaTwitter } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaPinterest } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa6";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -28,6 +31,35 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+   <div className=' bg-[#000000] overflow-hidden px-[12vw] py-10'>
+
+<Footer/>
+
+</div>
+<div className="bg-[#6f6f6f]   overflow-hidden px-[12vw] py-4 ">
+<div className="flex justify-between items-center max-w-7xl w-full px-4 md:px-8 mx-auto  text-[9px] lg:text-[13px]">
+<p>
+Copyright © 2024 by Roman Khan. All Rights Reserved.
+</p>
+<div className="flex gap-2">
+  <div className="p-3 text-[18px] bg-white text-[#6f6f6f] hover:text-[#ff9f0d] cursor-pointer transition-colors duration-300">
+    <FaFacebookF/>
+  </div>
+  <div className="p-3 text-[18px] bg-white text-[#6f6f6f] hover:text-[#ff9f0d] cursor-pointer transition-colors duration-300">
+    <FaTwitter/>
+  </div>
+  <div className="p-3 text-[18px] bg-white text-[#6f6f6f] hover:text-[#ff9f0d] cursor-pointer transition-colors duration-300">
+    <FaInstagram/>
+  </div>
+  <div className="p-3 text-[18px] bg-white text-[#6f6f6f] hover:text-[#ff9f0d] cursor-pointer transition-colors duration-300">
+    <FaYoutube/>
+  </div>
+  <div  className="p-3 text-[18px] bg-white text-[#6f6f6f] hover:text-[#ff9f0d] cursor-pointer transition-colors duration-300">
+<FaPinterestSquare className="rounded-full"/>
+  </div>
+</div>
+</div>
+</div>
       </body>
     </html>
   );

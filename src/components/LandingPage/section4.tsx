@@ -5,6 +5,8 @@ import Button from "../generalComponents/button";
 
 export default function SectionFour() {
   return (
+   <div className=' bg-[#000000f2] overflow-hidden px-[12vw]'>
+
     <div className="flex flex-col-reverse lg:flex-row items-center justify-between mx-auto gap-10 w-full px-4 md:px-8 mt-10 py-4 md:py-16 max-w-7xl">
       {/* Image Grid Section */}
       <div className="flex items-center justify-center w-full lg:w-[65%] h-fit mx-auto md:pt-10">
@@ -120,6 +122,7 @@ export default function SectionFour() {
           />
         </div>
       </div>
+    </div>
     </div>
   );
 }

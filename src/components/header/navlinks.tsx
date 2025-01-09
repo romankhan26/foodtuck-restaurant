@@ -5,7 +5,7 @@ const NavLinks = () => {
   return (
     <>
     <div
-      className=" navlinks h-6 relative text-[16px] top-2 max-w-full md:w-2/4 lg:w-[340px] hidden font-normal leading-6 text-left md:flex gap-4 sm:items-start lg:items-center
+      className=" navlinks h-6 relative text-[12px]  top-2 max-w-full md:w-2/4 lg:w-[340px] hidden font-normal leading-6 text-left md:flex gap-4 sm:items-start lg:items-center
 
 
 "

@@ -14,14 +14,15 @@ const ImageOfClient = ({imgURL, className}:{imgURL:string, className:string})=>{
 }
 const SectionEight = () => {
   return (
-    <>
+    <div className=' bg-[#000000f2] overflow-hidden px-[12vw]'>
+<>
     <div className='w-full max-w-7xl px-4 md:px-8 mx-auto my-10 md:my-16 '>
        <div className="md:mb-28 lg:mb-20  mb-10">
        <HeadingGreatVibes className="" text="Testimonials"/>
         <Heading colorOfInitial={false} text="What Our Clients Are Saying" />
       
         </div>  <div className="bg-white relative mx-auto lg:w-[70%] w-[90%] px-2    md:h-full h-fit  max-h-[600px] flex items-center flex-col justify-center md:gap-5 gap-2 text-black text-center py-12 ">
-            <ImageOfClient imgURL="/assets/Ellipse 6.png" className="absolute md:-top-14 -top-6"/>
+            <ImageOfClient imgURL="/assets/Ellipse 6.png" className="absolute  md:-top-14 -top-6"/>
             <Image src="/assets/Quotes.png" width={300} height={300} alt='""' className="w-6 h-6 md:w-8 md:h-8 lg:h-10 lg:w-10 md:mt-5" />
             <p className=" md:mx-28 mx-4 paragraph text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
           <div className="flex items-center justify-center w-full gap-1">
@@ -45,6 +46,7 @@ const SectionEight = () => {
             </div>
             </div>
             </>
+            </div>
   )
 }
 

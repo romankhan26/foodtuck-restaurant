@@ -5,7 +5,9 @@ import Image from "next/image";
 
 const SectionTwo = () => {
   return (
-    <div className="flex flex-col md:flex-row mt-10 w-full max-w-7xl mx-auto  px-4 md:px-8 items-center py-4 md:py-16 bg-black">
+   <div className=' bg-black overflow-hidden px-[12vw]'>
+
+    <div className="flex flex-col md:flex-row mt-10 w-full max-w-7xl mx-auto  px-4 md:px-8 items-center py-4 md:py-16 ">
       {/* Text Section */}
       <div className="w-full md:w-1/2 lg:w-[60%] text-left">
         <HeadingGreatVibes text="About Us" className="" />
@@ -59,6 +61,7 @@ const SectionTwo = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

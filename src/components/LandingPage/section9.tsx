@@ -5,6 +5,8 @@ import { CiPlay1 } from "react-icons/ci";
 
 const SectionNine = () => {
   return (
+    <div className=' bg-[#000000f2] overflow-hidden px-[12vw]'>
+
     <div className="relative w-full md:[h-65vh] xl:h-[550px] h-[400px] max-w-7xl  mx-auto flex items-center justify-end px-4">
       <Image
         src="/assets/section9bg.png"
@@ -38,6 +40,7 @@ const SectionNine = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

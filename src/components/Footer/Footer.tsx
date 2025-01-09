@@ -32,10 +32,10 @@ const Footer = () => {
         </div>
       </div>
       {/* Footer */}
-      <div className="flex justify-start items-start  gap-20 mx-auto pl-10   ">
+      <div className="flex justify-start items-start  gap-20 mx-auto pl-10 flex-wrap   ">
         <div className="   gap-4 flex flex-col">
           <h2 className="text-[11px] md:text-[14px] font-bold">About Us</h2>
-          <p className="w-60">Corporate clients and leisure travelers have
+          <p className="lg:w-60 md:w-48 w-32">Corporate clients and leisure travelers have
 been relying on Groundlink for dependable
 safe, and professional chauffeured car
 service in major cities across World.</p>
@@ -46,8 +46,7 @@ service in major cities across World.</p>
   <p className="text-[8px] md:text-[10px] ">Sunday - Closed</p></div>
 </div>
         </div>
-<div className="flex gap-10 flex-1">
-          <div className=" lg:w-1/4 gap-4 flex flex-col">
+          <div className="  w-32 gap-4 flex flex-col">
           <h2 className="text-[11px] md:text-[14px] font-bold">Useful Links</h2>
           <p>About</p>
           <p>News</p>
@@ -56,7 +55,7 @@ service in major cities across World.</p>
           <p>Menu</p>
           <p>Contacts</p>
         </div>
-        <div className=" lg:w-1/4 gap-4 flex flex-col">
+        <div className=" w-32  gap-4 flex flex-col">
           <h2 className="text-[11px] md:text-[14px] font-bold">Help?</h2>
              <p>FAQ</p>
           <p>Terms and Conditions</p>
@@ -65,7 +64,7 @@ service in major cities across World.</p>
           <p>Support Policy</p>
           <p>Privacy</p>
         </div>
-        <div className="w-fit gap-4 flex flex-col">
+        <div className="lg:w-60 md:w-48 w-32 gap-4 flex flex-col">
           <h2 className="text-[11px] md:text-[14px] font-bold">Recent Post</h2>
           <div className="flex gap-2">
   <div  className=" w-[50px] h-[50px] rounded-sm "><Image src="/assets/img11.png" alt="abc" width={100} height={100} className="w-full h-full"/></div>
@@ -88,7 +87,6 @@ service in major cities across World.</p>
         </div>
 </div>
       </div>
-     </div>
   );
 };
 

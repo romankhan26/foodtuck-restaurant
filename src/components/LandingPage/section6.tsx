@@ -4,6 +4,8 @@ import Menulistitem from "../generalComponents/menuItemsHomePage";
 import { Heading, HeadingGreatVibes } from "../generalComponents/heading";
 export default function SectionSix() {
   return (
+   <div className=' bg-[#000000f2] overflow-hidden px-[12vw]'>
+
     <div className=" w-full px-4 md:px-8 mx-auto py-10 md:py-16  max-w-7xl flex flex-col items-center text-white gap-6">
       <div className="flex flex-col  w-full items-center">
         <HeadingGreatVibes text="Choose & Pick" className="" />
@@ -79,6 +81,7 @@ export default function SectionSix() {
             priceNow="12.5$"
           />
         </div>
+      </div>
       </div>
   );
 }

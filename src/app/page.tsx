@@ -13,7 +13,7 @@ import SectionTen from '@/components/LandingPage/section10'
 
 export default function Home  () {
   return(
-   <div className=' bg-[#000000e5] overflow-hidden px-[12vw]'>
+   <div>
      <Header/>
         <Hero/>
  <SectionTwo/>

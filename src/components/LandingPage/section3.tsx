@@ -4,7 +4,8 @@ import { HeadingGreatVibes } from "../generalComponents/heading";
 
 export default function SectionThree() {
   return (
-    <div className="bg-transparent w-full flex flex-col  mt-10  max-w-7xl mx-auto   gap-10">
+    <div className=' bg-[#000000f2] overflow-hidden px-[12vw]'>
+  <div className=" w-full flex flex-col  mt-10  max-w-7xl mx-auto   gap-10">
       {/* Heading Section */}
       <div className="flex flex-col items-center">
         <HeadingGreatVibes text="Food Category" className="" />
@@ -45,6 +46,7 @@ export default function SectionThree() {
             alt="Food Item 4"
           />
         </div>
+    </div>
     </div>
   );
 }

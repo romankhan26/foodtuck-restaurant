@@ -3,6 +3,8 @@ import  Button from "../generalComponents/button"
 import  ChefCard from "../generalComponents/chefCard"
 const SectionSeven = () => {
   return (
+   <div className=' bg-[#000000f2] overflow-hidden px-[12vw]'>
+
     <div className='w-full max-w-7xl mx-auto px-4 md:px-8 flex flex-col items-center'>
 <div className="mb-10 text-center">
 <HeadingGreatVibes className="" text="Chefs"/>
@@ -18,6 +20,7 @@ const SectionSeven = () => {
         className="w-[180px] h-[50px] mt-6 text-white bg-[#ff9e0d00] rounded-full border-[1px] hover:bg-[#ff9f0d] border-[#FF9F0D]"
         text="See More" 
       />
+    </div>
     </div>
   )
 }

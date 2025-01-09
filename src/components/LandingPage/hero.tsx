@@ -6,7 +6,9 @@ import { FaFacebookF } from "react-icons/fa";
 import Image from "next/image";
 const Hero = () => {
   return (
-<div className="flex flex-col md:flex-row  w-full max-w-7xl mx-auto my-[80px]   items-center">
+   <div className=' bg-[#000000ce] overflow-hidden px-[12vw]  '>
+
+<div className="flex flex-col md:flex-row  w-full max-w-7xl mx-auto my-[80px]  items-center">
   <div className="flex flex-nowrap gap-8 items-center">
     <div className="flex flex-col items-center gap-4">
       <div className="w-[1px] h-[100px] bg-white"></div>
@@ -36,7 +38,9 @@ const Hero = () => {
           height={250}
           className=" h-auto md:h-[260px] md:w-[350px] object-cover rounded-lg"
         />
-      </div></div>
+      </div>
+      </div>
+      </div>
 
   );
 };

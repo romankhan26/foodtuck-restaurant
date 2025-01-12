@@ -1,9 +1,10 @@
 import Image from "next/image";
+import "./section5.css"
 export default function SectionFive() {
   return (
-   <div className=' bg-[#000000d5] overflow-hidden px-[12vw] pt-10'>
-
-    <div className=" md:flex text-[white] px-4 md:px-8 flex-wrap md:gap-10 items-center justify-between mx-auto w-full lg:-mt-10 py-4 md:py-16 max-w-7xl gap-10">
+    <div className="background-image relative">
+   <div className=' bg-[#000000d5] overflow-hidden px-[12vw] pt-10 '>
+    <div className=" md:flex text-[white] px-4 md:px-8 flex-wrap md:gap-10 items-center  justify-between mx-auto w-full lg:-mt-10 py-4 md:py-16 max-w-7xl gap-10">
       <div className="h-fit flex flex-col items-center space-y-1 cursor-pointer hover:scale-110 transition-transform">
         <Image
            src='/assets/Group1.png'
@@ -66,6 +67,6 @@ export default function SectionFive() {
       </div>
     </div>
     </div>
-
+    </div>
   );
 }

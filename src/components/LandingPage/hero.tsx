@@ -6,7 +6,7 @@ import { FaFacebookF } from "react-icons/fa";
 import Image from "next/image";
 const Hero = () => {
   return (
-   <div className=' bg-[#000000ce] overflow-hidden px-[12vw]  '>
+   <div className=' bg-[#000000ce] overflow-hidden px-[12vw]  z-0'>
 
 <div className="flex flex-col md:flex-row  w-full max-w-7xl mx-auto my-[80px]  items-center">
   <div className="flex flex-nowrap gap-8 items-center">
@@ -30,13 +30,13 @@ const Hero = () => {
       />
     </div>
   </div>
-  <div className=" mt-6 md:mt-0 lg:w-[50%]">
+  <div className=" mt-6 hidden lg:block lg:w-[50%]">
         <Image
           src='/assets/Capture.png'
           alt="image"
           width={250}
           height={250}
-          className=" h-auto md:h-[260px] md:w-[350px] object-cover rounded-lg"
+          className=" h-auto w-[550px] object-cover rounded-lg"
         />
       </div>
       </div>

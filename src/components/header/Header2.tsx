@@ -4,9 +4,9 @@ import { FaRegUser } from "react-icons/fa6";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
 const HeaderTwo = () => {
   return (
-        <div className=' bg-[#000000] overflow-hidden px-[12vw]'>
+        <div className=' bg-[#000000] overflow-hidden px-[12vw] -mb-2'>
 
-<div className="mx-auto w-full max-w-7xl h-auto px-4 relative md:px-8  flex justify-between items-center pb-10 top-[10px]">
+<div className="md:mx-auto w-full max-w-7xl h-auto -mx-3 relative md:px-8  flex justify-between items-center pb-10 top-[10px]">
   <h1 className=" font-bold   md:block relative top-2 hidden"><span className="text-[#FF9F0D]">
     Food
   </span>

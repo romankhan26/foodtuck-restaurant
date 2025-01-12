@@ -1,9 +1,10 @@
-import Image from 'next/image'
 import "./headersection.css"
-const HeaderSection = () => {
+import { HeadingLink } from "./heading"
+const HeaderSection = ({text, textHeading}:{text:string, textHeading :string}) => {
   return (
-    <div className='h-80 header-section w-full relative overflow-hidden px-[12vw] '>
-        {/* <Image src='' className='w-full' alt="headerimage" width={150} height={150}/> */}
+    <div className='h-56 header-section w-full relative px-[12vw] flex justify-center items-center'>
+<HeadingLink text={text} textHeading={textHeading}/>
+
     </div>
   )
 }

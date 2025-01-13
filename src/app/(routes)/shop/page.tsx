@@ -8,7 +8,7 @@ const Shop = () => {
     
     <div className="px-[12vw] bg-white">
 
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto ">
           <div className="flex text-black py-3 mt-16 gap-4 flex-col md:flex-row">
     <SortDropdown />
     <ShowDropDown />
@@ -17,7 +17,7 @@ const Shop = () => {
           <div className="flex-1">
             <CardsSection />
           </div>
-          {/* <SideBar/> */}
+          <SideBar/>
         </div>
     </div>
     </div>

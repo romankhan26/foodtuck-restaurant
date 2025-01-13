@@ -5,10 +5,10 @@ import { HiOutlineShoppingBag } from "react-icons/hi2";
 import { ProductCardInterface } from "../MockData/data";
 const ProductCard = ({imageUrl, priceThen,priceNow, name, id}:ProductCardInterface) => {
   return (
-    <div className='max-w-[250px] h-[275px] group cursor-pointer hover:shadow-2xl my-2'>
+    <div className='w-[210px] h-[265px] group cursor-pointer hover:shadow-2xl my-2'>
     {/* Image of the product */}
-<div className="relative bg-black  min-w-[215px]">
-    <Image  className="w-[225px]  h-[215px] hover:opacity-50 transition-all duration-200" src={imageUrl} width={800} height={800} alt="img"/>
+<div className="relative bg-black ">
+    <Image  className="w-[210px]  h-[210px] hover:opacity-50 transition-all duration-200" src={imageUrl} width={800} height={800} alt="img"/>
 {/* Icons on hover */}
     <div className="absolute hidden group-hover:flex w-[100%] gap-2 text-center items-center justify-center bottom-24 text-white ">
 <div className="p-2 bg-white rounded-md">

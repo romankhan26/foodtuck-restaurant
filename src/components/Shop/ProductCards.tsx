@@ -4,7 +4,7 @@ import { foodProductCards } from '../MockData/data'
 const ProductCards = () => {
     const cardsData= foodProductCards
   return (
-        <div className="flex flex-wrap gap-3">
+        <div className="flex flex-wrap gap-3 items-center justify-center">
         {cardsData.map((card,index) =>{
             return card.priceThen ?  <ProductCard  key={index} id={card.id} imageUrl={card.imageUrl} name={card.name} priceNow={card.priceNow } priceThen={card.priceThen}/>:  <ProductCard key={index} id={card.id} imageUrl={card.imageUrl} name={card.name} priceNow={card.priceNow }/>
             })};

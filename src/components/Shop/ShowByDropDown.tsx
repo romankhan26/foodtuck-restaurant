@@ -15,19 +15,19 @@ const ShowDropDown: React.FC = () => {
     };
 
     return (
-        <div>
+        <div className='cursor-pointer'>
             <label htmlFor="sortDropdown" className="text-gray-700">Show By: </label>
             <select
                 id="sortDropdown"
                 value={sortOption}
                 onChange={handleSortChange}
-                className=" mx-2 border-[1px] border-[#dcdcdc] p-2 rounded-md text-gray-500"
+                className=" mx-2 border-[1px] border-[#dcdcdc] p-2 rounded-md focus:text-black text-[#b7b7b7] "
             >
-                <option value="" defaultValue={"Default"}>Default</option>
-                <option value="priceLowHigh">Price: Low to High</option>
-                <option value="priceHighLow">Price: High to Low</option>
-                <option value="nameAsc">Name: A to Z</option>
-                <option value="nameDesc">Name: Z to A</option>
+                <option className='text-black' value="" defaultValue={"Default"}>Default</option>
+                <option className='text-black' value="priceLowHigh">Price: Low to High</option>
+                <option className='text-black' value="priceHighLow">Price: High to Low</option>
+                <option className='text-black' value="nameAsc">Name: A to Z</option>
+                <option className='text-black' value="nameDesc">Name: Z to A</option>
             </select>
         </div>
     );

@@ -9,7 +9,7 @@ const Shop = () => {
     <div className="px-[12vw] bg-white">
 
     <div className="max-w-7xl mx-auto ">
-          <div className="flex text-black py-3 mt-16 gap-4 flex-col md:flex-row">
+          <div className="flex text-black py-3 mt-16 gap-4 flex-col md:flex-row px-4 md:px-8">
     <SortDropdown />
     <ShowDropDown />
         </div>

@@ -1,6 +1,6 @@
-import { Heading, HeadingGreatVibes } from "../generalComponents/heading";
-import  Button from "../generalComponents/button"
-import  ChefCard from "../generalComponents/chefCard"
+import { Heading, HeadingGreatVibes } from "../GeneralComponents/Headings";
+import  Button from "../GeneralComponents/Button"
+import  ChefCard from "../GeneralComponents/ChefCardHome"
 const SectionSeven = () => {
   return (
    <div className=' bg-[#000000f2] overflow-hidden px-[12vw]'>

@@ -1,5 +1,5 @@
 'use client'
-import "./navlinks.css";import { GiHamburgerMenu } from "react-icons/gi";
+import "./NavLinks.css";import { GiHamburgerMenu } from "react-icons/gi";
 import Link from "next/link";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { useState } from "react";
@@ -28,32 +28,32 @@ const NavLinks = () => {
         Menu
       </Link>
       <Link
-        href={"#"}
+        href={"/blog"}
         className="hover:underline underline-offset-2 decoration-[#FF9F0D] border-b-[1px] border-b-[#3d3d3dba] w-full text-center pb-2 -mt-5"
       >
         Blog
       </Link>
       <Link
-        href={"#"}
+        href={"/pages"}
         className="hover:underline underline-offset-2 decoration-[#FF9F0D] border-b-[1px] border-b-[#3d3d3dba] w-full text-center pb-2 -mt-5"
       >
         Pages
       </Link>
       <Link
-        href={"#"}
+        href={"/about"}
         className="hover:underline underline-offset-2 decoration-[#FF9F0D] justify-center flex items-center border-b-[1px] border-b-[#3d3d3dba] w-full text-center pb-2 -mt-5"
       >
         <span>About</span>
         <RiArrowDropDownLine />
       </Link>
       <Link
-        href={"#"}
+        href={"/shop"}
         className="hover:underline underline-offset-2 decoration-[#FF9F0D] border-b-[1px] border-b-[#3d3d3dba] w-full text-center pb-2 -mt-5"
       >
         Shop
       </Link>
       <Link
-        href={"#"}
+        href={"/contact"}
         className="hover:underline underline-offset-2 decoration-[#FF9F0D] border-b-[1px] border-b-[#3d3d3dba] w-full text-center pb-2 -mt-5"
       >
         Contact
@@ -80,32 +80,32 @@ const NavLinks = () => {
         Menu
       </Link>
       <Link
-        href={"#"}
+        href={"/blog"}
         className="hover:underline underline-offset-2 decoration-[#FF9F0D]"
       >
         Blog
       </Link>
       <Link
-        href={"#"}
+        href={"pages"}
         className="hover:underline underline-offset-2 decoration-[#FF9F0D]"
       >
         Pages
       </Link>
       <Link
-        href={"#"}
+        href={"/about"}
         className="hover:underline underline-offset-2 decoration-[#FF9F0D] justify-between flex items-center"
       >
         <span>About</span>
         <RiArrowDropDownLine />
       </Link>
       <Link
-        href={"#"}
+        href={"/shop"}
         className="hover:underline underline-offset-2 decoration-[#FF9F0D]"
       >
         Shop
       </Link>
       <Link
-        href={"#"}
+        href={"/contact"}
         className="hover:underline underline-offset-2 decoration-[#FF9F0D]"
       >
         Contact

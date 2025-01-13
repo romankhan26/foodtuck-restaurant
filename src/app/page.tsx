@@ -1,4 +1,4 @@
-import Header from '@/components/header/header'
+import Header from '@/components/Header/HeaderHome'
 import Hero from '@/components/LandingPage/hero'
 import SectionTwo from '@/components/LandingPage/section2'
 import SectionThree from '@/components/LandingPage/section3'

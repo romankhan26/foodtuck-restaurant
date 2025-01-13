@@ -1,20 +1,20 @@
-import HeaderSection from '@/components/generalComponents/headersection'
-import HeaderTwo from '@/components/header/Header2'
 import MenuSection from '@/components/MenuPage/MenuSection'
-import menuData from '@/components/MenuPage/data'
-import { ReactNode } from 'react'
+import menuData from '@/components/MockData/data'
+import Partners from '@/components/MenuPage/Partners'
 const Menu = () => {
   const menu_data = menuData
   return (
     <div className='bg-white'>
-        <HeaderTwo/>
-        <HeaderSection text='Menu' textHeading='Our Menu'/>
+
 {
   menu_data.map((element)=>{
    return <MenuSection key={element.id} MenuType={element.menuType} MenuItems={element.menuItems} ImageUrl={element.imageUrl } MenuId={element.id}/>  
-  })
-}
-    </div>
+  })}
+<Partners />   
+
+
+
+ </div>
   )
 }
 

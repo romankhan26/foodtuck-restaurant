@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { Heading, HeadingGreatVibes } from "../generalComponents/heading";
+import { Heading, HeadingGreatVibes } from "../GeneralComponents/Headings";
 import { PiWine, PiHamburger, PiCookie } from "react-icons/pi";
-import Button from "../generalComponents/button";
+import Button from "../GeneralComponents/Button";
 
 export default function SectionFour() {
   return (

@@ -1,7 +1,7 @@
 import { PiCoffee } from "react-icons/pi";
 import Image from "next/image";
 import "./MenuSection.tsx"
-import { MenuItems } from "./data";
+import { MenuItems } from "../MockData/data.js";
 import SectionFive from "../LandingPage/section5";
 
 // Pass `menuType` and `menuItems` as props to `MenuSection`
@@ -19,7 +19,7 @@ const MenuSection = ({
   const menuItems = MenuItems;
   return (
 <>
-    <div className=" px-[12vw] py-24 bg-white text-black h-fit">
+    <div className=" px-[12vw] py-20 bg-white text-black h-fit">
       {
         // image on right
         MenuId % 2 == 0 ? (
@@ -28,7 +28,7 @@ const MenuSection = ({
           
             {/* Menu Section */}
             <div className="md:w-[60%] w-full">
-              <h2 className="text-3xl font-bold">
+              <h2 className="md:text-2xl text-[16px] font-bold">
                 <PiCoffee className="text-xs md:text-sm text-[#ff9f0d]" />
                 {MenuType}
               </h2>
@@ -61,7 +61,7 @@ const MenuSection = ({
             <div className="md:w-[35%] w-full md:h-[442px]">
               <Image
                 src={ImageUrl}
-                className="w-full h-[320px]"
+                className="w-full h-[320px] md:h-full"
                 width={400}
                 height={450}
                 alt="menu item"
@@ -74,7 +74,7 @@ const MenuSection = ({
                <div className="md:w-[35%] w-full md:h-[442px]">
               <Image
                 src={ImageUrl}
-                className="w-full  h-[320px]"
+                className="w-full  h-[320px]  md:h-full"
                 width={400}
                 height={450}
                 alt="menu item"
@@ -82,7 +82,7 @@ const MenuSection = ({
             </div>
             {/* Menu Section */}
             <div className="md:w-[60%] w-full">
-              <h2 className="text-3xl font-bold">
+              <h2 className="md:text-2xl text-[16px] font-bold">
                 <PiCoffee className="text-xs md:text-sm text-[#ff9f0d]" />
                 {MenuType}
               </h2>

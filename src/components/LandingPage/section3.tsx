@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Heading } from "../generalComponents/heading";
-import { HeadingGreatVibes } from "../generalComponents/heading";
+import { Heading } from "../GeneralComponents/Headings";
+import { HeadingGreatVibes } from "../GeneralComponents/Headings";
 
 export default function SectionThree() {
   return (

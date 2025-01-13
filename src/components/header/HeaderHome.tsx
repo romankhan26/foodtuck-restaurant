@@ -1,5 +1,5 @@
-import NavLinks from "./navlinks";
-import SearchBar from "./searchbar";
+import NavLinks from "./NavLinks";
+import SearchBar from "./SearchBar";
 
 export default function Header() {
   return (

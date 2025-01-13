@@ -1,4 +1,4 @@
-import NavLinks from './navlinks';
+import NavLinks from './NavLinks';
 import { IoSearch } from "react-icons/io5";
 import { FaRegUser } from "react-icons/fa6";
 import { HiOutlineShoppingBag } from "react-icons/hi2";

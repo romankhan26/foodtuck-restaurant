@@ -2,7 +2,7 @@
 import Image from "next/image"
 import "./section8.css"
 import { FaStar } from "react-icons/fa6";
-import { Heading, HeadingGreatVibes } from "../generalComponents/heading"
+import { Heading, HeadingGreatVibes } from "../GeneralComponents/Headings"
 
 const ImageOfClient = ({imgURL, className}:{imgURL:string, className:string})=>{
     return (

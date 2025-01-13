@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Heading, HeadingGreatVibes } from "../generalComponents/heading";
-import Button from "../generalComponents/button";
+import { Heading, HeadingGreatVibes } from "../GeneralComponents/Headings";
+import Button from "../GeneralComponents/Button";
 import { CiPlay1 } from "react-icons/ci";
 
 const SectionNine = () => {

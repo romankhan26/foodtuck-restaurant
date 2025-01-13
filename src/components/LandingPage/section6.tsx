@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-import Menulistitem from "../generalComponents/menuItemsHomePage";
-import { Heading, HeadingGreatVibes } from "../generalComponents/heading";
+import Menulistitem from "../GeneralComponents/MenuItemsHome";
+import { Heading, HeadingGreatVibes } from "../GeneralComponents/Headings";
 export default function SectionSix() {
   return (
    <div className=' bg-[#000000f2] overflow-hidden px-[12vw]'>

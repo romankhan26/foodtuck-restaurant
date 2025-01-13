@@ -1,5 +1,5 @@
-import BlogsHomePage from "../generalComponents/blogHome";
-import { Heading, HeadingGreatVibes } from "../generalComponents/heading";
+import BlogsHomePage from "../GeneralComponents/BlogHome";
+import { Heading, HeadingGreatVibes } from "../GeneralComponents/Headings";
 const SectionTen = () => {
   return (
     <div className=" bg-[#000000f2] overflow-hidden px-[12vw]">

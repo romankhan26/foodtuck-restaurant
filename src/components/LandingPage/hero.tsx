@@ -1,7 +1,7 @@
-import Button from "../generalComponents/button";
+import Button from "../GeneralComponents/Button";
 import { FaPinterestP } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import { Heading, HeadingGreatVibes } from "../generalComponents/heading";
+import { Heading, HeadingGreatVibes } from "../GeneralComponents/Headings";
 import { FaFacebookF } from "react-icons/fa";
 import Image from "next/image";
 const Hero = () => {

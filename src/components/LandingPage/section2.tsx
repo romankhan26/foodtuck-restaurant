@@ -1,6 +1,6 @@
-import Button from "../generalComponents/button";
+import Button from "../GeneralComponents/Button";
 import { FaCheck } from "react-icons/fa";
-import { Heading, HeadingGreatVibes } from "../generalComponents/heading";
+import { Heading, HeadingGreatVibes } from "../GeneralComponents/Headings";
 import Image from "next/image";
 
 const SectionTwo = () => {

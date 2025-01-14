@@ -1,11 +1,15 @@
 import MenuSection from '@/components/MenuPage/MenuSection'
 import menuData from '@/components/MockData/data'
 import Partners from '@/components/MenuPage/Partners'
+import HeaderSection from "@/components/GeneralComponents/HeaderSection";
+import HeaderTwo from "@/components/Header/HeaderGeneral";
+
 const Menu = () => {
   const menu_data = menuData
   return (
     <div className='bg-white'>
-
+    <HeaderTwo/>
+    <HeaderSection text='Menu' textHeading='Our Menu'/>
 {
   menu_data.map((element)=>{
    return <MenuSection key={element.id} MenuType={element.menuType} MenuItems={element.menuItems} ImageUrl={element.imageUrl } MenuId={element.id}/>  

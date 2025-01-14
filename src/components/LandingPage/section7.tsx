@@ -1,5 +1,6 @@
 import { Heading, HeadingGreatVibes } from "../GeneralComponents/Headings";
 import  Button from "../GeneralComponents/Button"
+import Link from "next/link";
 import  ChefCard from "../GeneralComponents/ChefCardHome"
 const SectionSeven = () => {
   return (
@@ -16,10 +17,12 @@ const SectionSeven = () => {
  <ChefCard chefImageUrl="/assets/Chef Card 1 (3).png" isOnHome chefName="M. William" chefDescription="Advertising Chef"/>
  <ChefCard chefImageUrl="/assets/Chef Card 1 (4).png" isOnHome chefName="W.Readfroad" chefDescription="Chef"/>
 </div>
-     <Button 
+    <Link href="/chefs">
+    <Button 
         className="w-[180px] h-[50px] mt-6 text-white bg-[#ff9e0d00] rounded-full border-[1px] hover:bg-[#ff9f0d] border-[#FF9F0D]"
         text="See More" 
       />
+    </Link>
     </div>
     </div>
   )

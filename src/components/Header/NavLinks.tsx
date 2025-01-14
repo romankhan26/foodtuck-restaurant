@@ -14,10 +14,10 @@ const NavLinks = () => {
   return (
     <div className="relative">
        <GiHamburgerMenu onClick={() => {setOpen((prev) => !prev); console.log(open)}} className='relative top-2 w-6 h-5 md:hidden cursor-pointer z-20 hover:text-[#FF9F0D]'/>
-       {open && (<div className="fixed bg-[#000e] text-white w-screen left-0 -top-5 h-[100vw] flex flex-col items-center justify-center gap-8 text-xl  z-10 ">
+       {open && (<div className="fixed bg-[#000e] text-white w-screen left-0 top-0 h-[100vh] flex flex-col items-center justify-center gap-8 text-xl  z-10 ">
       <Link
         href={"/"}
-        className="hover:underline underline-offset-2 decoration-[#FF9F0D] border-y-[1px] border-y-[#3d3d3dba] w-full text-center py-2 "
+        className="hover:underline underline-offset-2 decoration-[#FF9F0D] border-b-[1px] border-b-[#3d3d3dba] w-full text-center py-2 "
       >
         Home
       </Link>
@@ -54,7 +54,7 @@ const NavLinks = () => {
       </Link>
       <Link
         href={"/contact"}
-        className="hover:underline underline-offset-2 decoration-[#FF9F0D] border-b-[1px] border-b-[#3d3d3dba] w-full text-center pb-2 -mt-5"
+        className="hover:underline underline-offset-2 decoration-[#FF9F0D]  w-full text-center pb-2 -mt-5"
       >
         Contact
       </Link>

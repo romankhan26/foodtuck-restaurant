@@ -30,3 +30,9 @@ body {
 input:focus, input:active {
    outline: none;
 }
+input[type="checkbox"] {
+   accent-color: gray; /* Default color */
+ }
+input[type="checkbox"]:checked {
+   accent-color:#ff9f0d; /* Color after checked */
+ }

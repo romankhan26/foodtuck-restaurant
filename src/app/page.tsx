@@ -13,7 +13,7 @@ import SectionTen from '@/components/LandingPage/section10'
 
 export default function Home  () {
   return(
-   <div>
+   <div className='overflow-x-hidden'>
      <Header/>
         <Hero/>
  <SectionTwo/>

@@ -1,0 +1,17 @@
+.paragraph {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    max-height: 3em; /* Adjust based on the height of three lines of text */
+  }
+  
+  .paragraph_noclamp {
+    max-height: 500px ;
+    display: block;
+    overflow: visible;
+    max-height: none;
+  }
+  

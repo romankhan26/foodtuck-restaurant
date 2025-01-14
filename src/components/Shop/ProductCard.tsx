@@ -33,8 +33,8 @@ const ProductCard = ({imageUrl, priceThen,priceNow, name, id}:ProductCardInterfa
           {priceThen ? (
             <>
               {" "}
-              <span className="text-[#ff9f0d]">{priceNow}</span>
-              <span className="text-gray-500 line-through "> {priceThen}</span>
+              <span className="text-[#ff9f0d]">{"$"+priceNow}</span>
+              <span className="text-gray-500 line-through "> {"$"+priceThen}</span>
             </>
           ) : (
             <span className="text-[#ff9f0d]">{priceNow}</span>

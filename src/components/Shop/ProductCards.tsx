@@ -2,7 +2,7 @@ import React from "react";
 import ProductCard from "./ProductCard";
 import { FaAngleDoubleLeft } from "react-icons/fa";
 import { FaAngleDoubleRight } from "react-icons/fa";
-import { foodProductCards } from "../MockData/data";
+import { foodProductCards } from "../../data/data";
 const ProductCards = () => {
   const cardsData = foodProductCards;
   return (

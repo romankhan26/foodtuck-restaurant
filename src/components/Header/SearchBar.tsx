@@ -1,19 +1,18 @@
 'use client';
 import { CiSearch } from "react-icons/ci";
-import { IoSearch } from "react-icons/io5";
-import { HiOutlineShoppingBag } from "react-icons/hi";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 const SearchBar = () => {
   const router = useRouter();
+  const [query, setQuery] = useState("");
 
-  const handleSearch = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSearch = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const formData = new FormData(e.currentTarget);
-    const name = formData.get("name") as string;
 
-    if (name) {
-      router.push(`/list?name=${name}`);
+    if (query.trim()) {
+      // Redirect to the search results page with the query in the URL
+      router.push(`/${query}`);
     }
   };
 
@@ -24,14 +23,14 @@ const SearchBar = () => {
           type="text"
           name="name"
           placeholder="Search...."
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
           className="flex-1 bg-transparent placeholder:text-gray-500 outline-none"
         />
         <button aria-label="Search" className="cursor-pointer">
           <CiSearch className="w-6 h-5" />
         </button>
       </form>
-      <IoSearch className="md:hidden cursor-pointer hover:text-[#FF9F0D]" />
-      <HiOutlineShoppingBag className="cursor-pointer hover:text-[#FF9F0D]" />
     </div>
   );
 };

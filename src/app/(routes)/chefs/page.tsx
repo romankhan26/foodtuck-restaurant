@@ -1,7 +1,7 @@
 import ChefCard from '@/components/GeneralComponents/ChefCardHome'
 import HeaderSection from '@/components/GeneralComponents/HeaderSection'
 import HeaderTwo from '@/components/Header/HeaderGeneral'
-import { ChefsData } from '@/components/MockData/data'
+import { ChefsData } from '@/data/data'
 const OurChefs = () => {
     const data = ChefsData
   return (<>

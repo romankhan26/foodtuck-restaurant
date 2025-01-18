@@ -1,7 +1,7 @@
 import HeaderSection from '@/components/GeneralComponents/HeaderSection'
 import HeaderTwo from '@/components/Header/HeaderGeneral'
 import FAQuestions from "@/components/FAQ/FAQ"
-import { FAQData } from '@/components/MockData/data'
+import { FAQData } from '@/data/data'
 const FAQ = () => {
     const data = FAQData
   return (<>

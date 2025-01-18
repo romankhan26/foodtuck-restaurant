@@ -1,5 +1,5 @@
 import MenuSection from '@/components/MenuPage/MenuSection'
-import menuData from '@/components/MockData/data'
+import menuData from '@/data/data'
 import Partners from '@/components/MenuPage/Partners'
 import HeaderSection from "@/components/GeneralComponents/HeaderSection";
 import HeaderTwo from "@/components/Header/HeaderGeneral";

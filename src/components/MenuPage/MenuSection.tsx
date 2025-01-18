@@ -1,7 +1,7 @@
 import { PiCoffee } from "react-icons/pi";
 import Image from "next/image";
 import "./MenuSection.tsx"
-import { MenuItems } from "../MockData/data.js";
+import { MenuItems } from "../../data/data.js";
 import SectionFive from "../LandingPage/section5";
 
 // Pass `menuType` and `menuItems` as props to `MenuSection`

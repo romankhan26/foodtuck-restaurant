@@ -2,7 +2,7 @@ import Image from "next/image"
 import { LuGitCompareArrows } from "react-icons/lu";
 import { FaRegHeart } from "react-icons/fa";
 import { HiOutlineShoppingBag } from "react-icons/hi2";
-import { ProductCardInterface } from "../MockData/data";
+import { ProductCardInterface } from "../../data/data";
 const ProductCard = ({imageUrl, priceThen,priceNow, name, id}:ProductCardInterface) => {
   return (
     <div className='w-[210px] h-[265px] group cursor-pointer hover:shadow-2xl my-2'>

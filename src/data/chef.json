@@ -1,0 +1,136 @@
+[
+  {
+    "name": "Tahmina Rumi",
+    "position": "Head Chef",
+    "experience": 12,
+    "specialty": "Italian Cuisine",
+    "image": "https://sanity-nextjs-rouge.vercel.app/chef/chef-1.png",
+    "description": "Expert in crafting authentic Italian dishes and pastries.",
+    "available": true
+  },
+  {
+    "name": "Jorina Begum",
+    "position": "Sous Chef",
+    "experience": 8,
+    "specialty": "Pastry and Desserts",
+    "image": "https://sanity-nextjs-rouge.vercel.app/chef/chef-2.png",
+    "description": "Specializes in creative pastries and dessert innovations.",
+    "available": true
+  },
+  {
+    "name": "M. Mohammad",
+    "position": "Grill Master",
+    "experience": 10,
+    "specialty": "Grilled Dishes",
+    "image": "https://sanity-nextjs-rouge.vercel.app/chef/chef-3.png",
+    "description": "Renowned for creating perfectly grilled meats and vegetables.",
+    "available": true
+  },
+  {
+    "name": "Munna Kathy",
+    "position": "Culinary Instructor",
+    "experience": 15,
+    "specialty": "Asian Fusion",
+    "image": "https://sanity-nextjs-rouge.vercel.app/chef/chef-4.png",
+    "description": "Pioneer in Asian fusion dishes blending traditional flavors with modern techniques.",
+    "available": true
+  },
+  {
+    "name": "Bisnu Devgon",
+    "position": "Executive Chef",
+    "experience": 20,
+    "specialty": "Global Cuisine",
+    "image": "https://sanity-nextjs-rouge.vercel.app/chef/chef-5.png",
+    "description": "Expert in international cuisines and menu planning.",
+    "available": true
+  },
+  {
+    "name": "William Rumi",
+    "position": "Chef de Cuisine",
+    "experience": 18,
+    "specialty": "Seafood Specialties",
+    "image": "https://sanity-nextjs-rouge.vercel.app/chef/chef-6.png",
+    "description": "Master of crafting exquisite seafood dishes with unique flavors.",
+    "available": true
+  },
+  {
+    "name": "John Doe",
+    "position": "Chef",
+    "image": "/assets/Chef Card 1.png"
+  },
+  {
+    "name": "Emma Watson",
+    "position": "Chef",
+    "image": "/assets/Chef Card 1 (2).png"
+  },
+  {
+    "name": "Liam Brown",
+    "position": "Chef",
+    "image": "/assets/Chef Card 1 (3).png"
+  },
+  {
+    "name": "Liam Brown",
+    "position": "Chef",
+    "image": "/assets/Chef Card 1 (4).png"
+  },
+  {
+    "name": "Olivia Smith",
+    "position": "Chef",
+    "image": "/assets/Chef Card 4.png"
+  },
+  {
+    "name": "Chef Noah",
+    "position": "Chef",
+    "image": "/assets/Chef Card 5.png"
+  },
+  {
+    "name": "Ava Johnson",
+    "position": "Chef",
+    "image": "/assets/Chef Card 6.png"
+  },
+  {
+    "name": "William Davis",
+    "position": "Chef",
+    "image": "/assets/Chef Card 7.png"
+  },
+  {
+    "name": "Sophia Martinez",
+    "position": "Chef",
+    "image": "/assets/Chef Card 8.png"
+  },
+  {
+    "name": "James Wilson",
+    "position": "Chef",
+    "image": "/assets/Chef Card 9.png"
+  },
+  {
+    "name": "Isabella Anderson",
+    "position": "Chef",
+    "image": "/assets/Chef Card 10.png"
+  },
+  {
+    "name": "Benjamin Taylor",
+    "position": "Chef",
+    "image": "/assets/Chef Card 11.png"
+  },
+  {
+    "name": "Mia Thomas",
+    "position": "Chef",
+    "image": "/assets/Chef Card 12.png"
+  },
+  {
+    "name": "Lucas White",
+    "position": "Chef",
+    "image": "/assets/Chef Card 13.png"
+  },
+  {
+    "name": "Chef Amelia",
+    "position": "Chef",
+    "image": "/assets/Chef Card 14.png"
+  },
+  {
+    "name": "Henry Harris",
+    "position": "Chef",
+    "image": "/assets/Chef Card 15.png"
+  }
+]

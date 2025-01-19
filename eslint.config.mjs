@@ -15,16 +15,13 @@ const compat = new FlatCompat({
 const eslintConfig = [
   // Extend from Next.js base config with core web vitals and TypeScript support
   ...compat.extends("next/core-web-vitals", "next/typescript"),
-  
+
+  // Directly apply rules globally for *.ts and *.tsx files
   {
-    overrides: [
-      {
-        files: ["*.ts", "*.tsx"], // Targeting TypeScript files specifically
-        rules: {
-          "@typescript-eslint/no-explicit-any": "off", // Disable the explicit-any rule for TypeScript files
-        },
-      },
-    ],
+    files: ["*.ts", "*.tsx"], // Targeting TypeScript files specifically
+    rules: {
+      "@typescript-eslint/no-explicit-any": "off", // Disable the explicit-any rule for TypeScript files
+    },
   },
 ];
 

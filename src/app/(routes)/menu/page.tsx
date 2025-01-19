@@ -3,15 +3,15 @@ import menuData from '@/data/data'
 import Partners from '@/components/MenuPage/Partners'
 import HeaderSection from "@/components/GeneralComponents/HeaderSection";
 import HeaderTwo from "@/components/Header/HeaderGeneral";
-
+import { client } from '@/sanity/lib/client';
 const Menu = () => {
-  const menu_data = menuData
+  const menu_data =  menuData
   return (
     <div className='bg-white'>
     <HeaderTwo/>
     <HeaderSection text='Menu' textHeading='Our Menu'/>
 {
-  menu_data.map((element)=>{
+  menu_data.map((element:any)=>{
    return <MenuSection key={element.id} MenuType={element.menuType} MenuItems={element.menuItems} ImageUrl={element.imageUrl } MenuId={element.id}/>  
   })}
 <Partners />   

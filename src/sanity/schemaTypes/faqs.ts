@@ -1,6 +1,5 @@
 // schemas/faq.js
-
-export default {
+  export default {
     name: 'faq',
     title: 'FAQ',
     type: 'document',

@@ -41,13 +41,16 @@ async function importData() {
     // API endpoint containing  data
     const $Promise = [];
     $Promise.push(
-      axios.get('https://sanity-nextjs-rouge.vercel.app/api/foods')
+      axios.get('https://localhost/api/foods')
     );
     $Promise.push(
-      axios.get('https://sanity-nextjs-rouge.vercel.app/api/chefs')
+      axios.get('https://localhost/api/chefs')
+    );
+     $Promise.push(
+      axios.get('https://localhost/api/faqs')
     );
 
-    const [foodsResponse, chefsResponse] = await Promise.all($Promise);
+    const [foodsResponse, chefsResponse, faqsResponse] = await Promise.all($Promise);
     const foods = foodsResponse.data;
     const chefs = chefsResponse.data;
 

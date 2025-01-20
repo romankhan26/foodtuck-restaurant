@@ -1,4 +1,5 @@
-import { FaAngleRight } from "react-icons/fa6";import { Great_Vibes } from "next/font/google";
+import { FaAngleRight } from "react-icons/fa6";
+import { Great_Vibes } from "next/font/google";
 
 const great_vibes = Great_Vibes({
   weight:"400",

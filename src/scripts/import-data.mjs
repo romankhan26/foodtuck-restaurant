@@ -41,13 +41,13 @@ async function importData() {
     // API endpoint containing  data
     const $Promise = [];
     $Promise.push(
-      axios.get('https://localhost/api/foods')
+      axios.get('https://foodtuck-restaurant-rk26.vercel.app/api/foods')
     );
     $Promise.push(
-      axios.get('https://localhost/api/chefs')
+      axios.get('https://foodtuck-restaurant-rk26.vercel.app/api/chefs')
     );
      $Promise.push(
-      axios.get('https://localhost/api/faqs')
+      axios.get('https://foodtuck-restaurant-rk26.vercel.app/api/faqs')
     );
 
     const [foodsResponse, chefsResponse, faqsResponse] = await Promise.all($Promise);

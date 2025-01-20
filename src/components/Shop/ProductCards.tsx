@@ -2,13 +2,13 @@ import React from "react";
 import ProductCard from "./ProductCard";
 import { FaAngleDoubleLeft } from "react-icons/fa";
 import { FaAngleDoubleRight } from "react-icons/fa";
-import { foodProductCards } from "../../data/data";
+// import { foodProductCards } from "../../data/data";
 const ProductCards = () => {
-  const cardsData = foodProductCards;
+  // const cardsData = foodProductCards;
   return (
     <>
       <div className="flex flex-wrap gap-3 items-center justify-center px-2">
-        {cardsData.map((card, index) => {
+        {/* {cardsData.map((card, index) => {
           return card.priceThen ? (
             <ProductCard
               key={index}
@@ -27,7 +27,7 @@ const ProductCards = () => {
               priceNow={card.priceNow}
             />
           );
-        })}
+        })} */}
         ;
       </div>
       <div className="flex items-center justify-center  gap-5 mb-16">

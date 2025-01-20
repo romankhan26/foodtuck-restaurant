@@ -1,7 +1,7 @@
 import { PiCoffee } from "react-icons/pi";
 import Image from "next/image";
 import "./MenuSection.tsx"
-import { MenuItems } from "../../data/data.js";
+// import { MenuItems } from "../../data/data.js";
 import SectionFive from "../LandingPage/section5";
 
 // Pass `menuType` and `menuItems` as props to `MenuSection`
@@ -9,14 +9,14 @@ const MenuSection = ({
   MenuType,
   ImageUrl,
   MenuId,
-  MenuItems,
+  // MenuItems,
 }: {
   MenuType: string;
   MenuId: number;
   ImageUrl: string;
-  MenuItems: MenuItems[];
+  // MenuItems: MenuItems[];
 }) => {
-  const menuItems = MenuItems;
+  // const menuItems = MenuItems;
   return (
 <>
     <div className=" px-[12vw] py-20 bg-white text-black h-fit">
@@ -33,7 +33,7 @@ const MenuSection = ({
                 {MenuType}
               </h2>
               {/* MenuItems */}
-              {MenuItems.map((element: MenuItems) => {
+              {/* {MenuItems.map((element: MenuItems) => {
                 return (
                   <div
                     className="flex justify-between items-start border-b-[1px]  py-[13px] border-b-[#bfbfbf77]"
@@ -55,7 +55,7 @@ const MenuSection = ({
                     </p>
                   </div>
                 );
-              })}
+              })} */}
 
             </div>
             <div className="md:w-[35%] w-full md:h-[442px]">
@@ -87,7 +87,7 @@ const MenuSection = ({
                 {MenuType}
               </h2>
               {/* MenuItems */}
-              {MenuItems.map((element: MenuItems) => {
+              {/* {MenuItems.map((element: MenuItems) => {
                 return (
                   <div
                     className="flex justify-between items-start border-b-[1px]  py-[13px] border-b-[#bfbfbf77]"
@@ -109,7 +109,7 @@ const MenuSection = ({
                     </p>
                   </div>
                 );
-              })}
+              })} */}
             </div>
          
           </div>
